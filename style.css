@@ -1,0 +1,85 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Exo 2', sans-serif;
+}
+
+.flex{
+	margin: 5px;
+	display: flex;
+	flex-direction: column;
+}
+
+form{
+	width: 80%;
+	border: 1px solid black;
+	margin: 5% auto 15% auto;
+}
+input{
+	border: 1px solid white;
+	border-radius: 10px;
+}
+.background{
+	display: none; 
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(217, 217, 182, 0.5);
+    padding-top: 50px;
+}
+
+.form{
+	background-color: #F16767;
+	border: 1px solid #F16767;
+	border-radius: 3px;
+    margin: 5% auto 15% auto;
+    width: 70%; /* Could be more or less, depending on screen size */
+}
+label, h1{
+	color: white;
+}
+
+input[type=text], input[type=password]{
+	padding: 5px;
+	width: 100%;
+}
+
+hr{
+	border: 1px solid white;
+}
+
+.container{
+	padding: 15px;
+}
+
+#cancel, #sing-up{
+	font-size: 1.2em;
+	width: 49%;
+	color: white;
+	padding: 10px;
+	border: 1px solid #F8CA6C;
+	border-radius: 5px;
+	background-color: rgb(248, 202, 108);
+}
+
+#cancel:hover{
+	border: none;
+	background-color: rgb(150, 145, 135);
+} 
+
+#sing-up:hover{
+	border: none;
+	background-color: rgb(248, 202, 50);
+}
+
+
+#flex-inline{
+	flex-direction: row;
+}
+
+button:hover{
+	cursor: pointer;
+}
